@@ -1,5 +1,13 @@
 (function(){
 	'use strict';
 
-	// Code starts here
+	var ractive = new Ractive({
+		el:       '#controls',
+		template: '#controlsTemplate',
+		data: {
+			score: 0,
+			currentQuestion: 0,
+			totalQuestions: 0
+		}
+	});
 }());

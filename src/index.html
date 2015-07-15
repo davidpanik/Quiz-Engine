@@ -16,26 +16,12 @@
 	<body>
 		<!-- build:include includes/header.html -->Header will go here<!-- /build -->
 
-		<p>Hello world</p>
-
-		<!-- build:handlebars includes/test.html  -->
-			{
-				"name": "Hello world",
-				"intro": {
-					"alpha": 123,
-					"beta":  456
-				},
-				"people": [
-					{ "first": "Bob"   , "last": "Smith" },
-					{ "first": "Sue"   , "last": "Brown" },
-					{ "first": "Joe"   , "last": "White" },
-					{ "first": "Alice" , "last": "Clark" }
-				]
-			}
-		<!-- /build -->
+		<!-- build:include includes/intro.html -->Intro will go here<!-- /build -->
+		<!-- build:include includes/main.html -->Main will go here<!-- /build -->
+		<!-- build:include includes/outro.html -->Outro will go here<!-- /build -->
 
 		<!-- build:include includes/footer.html -->Footer will go here<!-- /build -->
-
+		<!-- build:include includes/templates.html -->Templates will go here<!-- /build -->
 		<!-- build:include includes/scripts.html -->Scripts will go here<!-- /build -->
 	</body>
 </html>
