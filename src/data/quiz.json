@@ -1,0 +1,19 @@
+{
+	'title':  '',
+	'randomSelection': false,
+	'randomOrder': false,
+	'amount': 10,
+	'questions': [
+		{
+			'id':       '',
+			'text':     '',
+			'multiple': false,
+			'options': [
+				{
+					'text':   '',
+					'answer': false
+				}
+			]
+		}
+	]
+}
