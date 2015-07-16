@@ -1,7 +1,7 @@
 (function(){
 	'use strict';
 
-	var ractive = new Ractive({
+	var controls = new Ractive({
 		el:       '#controls',
 		template: '#controlsTemplate',
 		data: {
