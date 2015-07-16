@@ -21,4 +21,14 @@
 			currentQuestion: 0,
 			totalQuestions: 0
 		});
+
+		intro.on('next', function (event) {
+			screens.set('current', 'main');
+			main.render('#main');
+		});
+
+		main.on('next', function (event) {
+			screens.set('current', 'outro');
+			outro.render('#outro');
+		});
 }());

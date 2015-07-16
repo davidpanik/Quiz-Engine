@@ -9,26 +9,28 @@
 </script>
 
 <script id="screensTemplate" type="text/ractive">
-	{{#if current === 'intro'}}
+	{{#if current === "intro"}}
 		<section id="intro"></section>
 	{{/if}}
 
-	{{#if current === 'main'}}
+	{{#if current === "main"}}
 		<section id="main"></section>
 	{{/if}}
 
-	{{#if current === 'outro'}}
+	{{#if current === "outro"}}
 		<section id="outro"></section>
 	{{/if}}
 </script>
 
 <script id="introTemplate" type="text/ractive">
 	<h2>Intro</h2>
+	<button on-click="next">Next</button>
 </script>
 
 <script id="mainTemplate" type="text/ractive">
 	<div id="controls"></div>
 	<h2>Main</h2>
+	<button on-click="next">Next</button>
 </script>
 
 <script id="outroTemplate" type="text/ractive">
