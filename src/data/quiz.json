@@ -1,17 +1,17 @@
 {
-	'title':  '',
-	'randomSelection': false,
-	'randomOrder': false,
-	'amount': 10,
-	'questions': [
+	"title": "",
+	"randomSelection": false,
+	"randomOrder": false,
+	"amount": 10,
+	"questions": [
 		{
-			'id':       '',
-			'text':     '',
-			'multiple': false,
-			'options': [
+			"id":       "",
+			"text":     "",
+			"multiple": false,
+			"options": [
 				{
-					'text':   '',
-					'answer': false
+					"text":   "",
+					"answer": false
 				}
 			]
 		}

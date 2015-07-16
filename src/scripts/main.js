@@ -8,7 +8,7 @@
 			el:       '#' + id,
 			template: '#' + id + 'Template',
 			data:     data
-		})
+		});
 	}
 
 	var
@@ -30,5 +30,10 @@
 		main.on('next', function (event) {
 			screens.set('current', 'outro');
 			outro.render('#outro');
+		});
+
+		qwest.get('/data/quiz.json', {}, {})
+		.then(function(response) {
+			console.log(response);
 		});
 }());
